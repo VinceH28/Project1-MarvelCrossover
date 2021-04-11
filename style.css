@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+* {
+  font-family: "Bangers", cursive;
+  color: white;
+}
+body{
+    background: rgb(240,19,30);
+    background: radial-gradient(circle, rgba(240,19,30,1) 0%, rgba(0,0,0,1) 50%, rgba(240,19,30,1) 100%);
+}
+#headerImage{
+    margin-top: -25px;
+    max-width: fit-content;
+
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    border-top: solid black;
+    border-bottom: solid black;
+    position: relative;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    background-color: black;
+}
+.menu {
+    background-color: black;
+  }
+  .card-section,
+  li,
+  p {
+    background-color: black;
+  }
+  form {
+    width: 1145px;
+    height: 39px;
+  }
+  a {color: white;
+  }
+  a:hover,
+  li:hover {
+    background-color: #f0131e;
+  }
+  #searchButton .searchBar a .is-dropdown-submenu-parent .menu {
+    height: 39px;
+  }
+  .searchBar {
+      z-index: 10;
+      position: absolute;
+      bottom: 430px;
+      left: 542px;
+  }
+  
+  #searchButton{
+    background-color: black;;
+  }
+  .fa-bolt{
+    color: yellow;
+    }
+
+    h4 {
+      font-family: "Bangers", cursive;
+      color: yellow;
+      text-align: center;
+    }
+    .grid-x.grid-margin-x.small-up-2.medium-up-3 {
+      padding-top: 15px;
+      background-color: black;
+      border: 30px solid black;
+    }
+    p {
+      color: yellow;
+    }
+    .zoom:hover {
+      transform: scale(1.2);
+    }
+    .card-section:hover {
+      background: #f0131e;
+      /* This section is the hover for the cards already displayed */
+    }
+    .card {
+      background: black;
+    }
+    .card:hover {
+      background: #f0131e;
+    }
+    #doodle {
+      color: red;
+    }
+    #doodle,
+    p {
+      color: white;
+    }
+
+/* modal stuff  */
+.modalContainer {
+    background-color: black;
+}
+#modalHeroImage {
+    max-width: 300px;
+    float: left;
+    margin: 9px;
+}
+.modalPics {
+    max-width: 200px;
+    display: inline;
+}
+.modalP{
+    color: red;
+}
+
+.modalP{
+    color: red;
+}
+
+.orbit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* bottom: 10px; */
+  width: 50%;
+  height: 400px;
+}
